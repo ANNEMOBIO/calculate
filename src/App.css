@@ -1,0 +1,92 @@
+body {
+  background: linear-gradient(140deg, rgb(23, 43, 5), rgb(40, 17, 94));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+}
+
+.calculator {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+form input {
+  border: none;
+  outline: 0;
+  width: 60px;
+  height: 60px;
+  font-size: 16px;
+  background-color: rgb(143, 23, 103);
+  margin: 2px;
+  border-radius: 10px;
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+form input[type="button"]:hover {
+  background-color: rgb(55, 36, 124);
+}
+
+.display {
+  display: flex;
+  justify-content: flex-start;
+  margin: 5px 0px 15px 0px;
+}
+
+.display input {
+  flex: 1;
+  width: 100%;
+  padding: 5px 10px;
+  background-color: rgb(175, 141, 163);
+}
+
+.AFTER {
+  width: 310px;
+}
+
+.EGALE {
+  width: 120px;
+}
+body.dark-mode {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+.container.dark-mode {
+  background-color: #1a1a1a;
+}
+
+.calculator.dark-mode {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.display.dark-mode {
+  background-color: #444444;
+}
+
+.form input.dark-mode {
+  background-color: #555555;
+}
+
+.form input[type="button"]:hover.dark-mode {
+  background-color: #3648b1;
+}
+
+.history-entry.dark-mode {
+  background-color: #444444;
+}
+.dark-mode form input{
+  background-color: rgb(91, 128, 115);
+}
+ .dark-mode input[type="button"]:hover {
+  background-color: rgb(69, 119, 167);
+}
